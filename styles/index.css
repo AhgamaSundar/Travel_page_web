@@ -45,3 +45,7 @@
     
     background-color:rgb(255,251,0) ;
 }
+ #hero:hover{
+    background-image: url("/image/places/s.jpeg");
+    background-position: center;
+}
