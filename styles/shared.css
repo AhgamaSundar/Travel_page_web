@@ -1,0 +1,41 @@
+body{
+    font-family:"Quicksand",sans-serif ;
+    margin: 0;
+    
+}
+header{
+    background-color: rgba(0, 0, 0, 0.559);
+    width: 100%;
+    box-sizing: border-box;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 60px;
+}
+#logo a{
+    padding: 10px;
+    font-family: "Oleo script",sans-serif;
+    color: #abbece;
+    font-size: 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 3px black;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+header ul{
+    display: flex;
+
+}
+header li{
+    
+    margin-left: 20px;
+
+}
