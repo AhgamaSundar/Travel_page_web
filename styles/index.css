@@ -4,6 +4,13 @@
   background-position: center;
   background-size: cover;
 }
+#hero:hover{
+    background-image: url("/image/places/s.jpeg");
+  background-position: center;
+  background-size: cover;
+
+
+}
 #hero-content {
   width: 900px;
   background-color: rgba(0, 0, 0, 0.559);
