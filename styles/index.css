@@ -1,47 +1,76 @@
-#hero{
-    height:800px;
-    background-image:url("/image/places/ocean.jpg");
-    background-position: center;
-    background-size: cover;
+#hero {
+  height: 800px;
+  background-image: url("/image/places/ocean.jpg");
+  background-position: center;
+  background-size: cover;
+}
+#hero-content {
+  width: 900px;
+  background-color: rgba(0, 0, 0, 0.559);
+  box-shadow: 2px 4px 8px rgb(68, 67, 67);
+  border-radius: 8px;
+  text-align: center;
+  padding: 50px 0;
+  margin: 0 auto;
+  position: relative;
+  top: 250px;
+}
+#hero-content h1 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 50px;
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+}
+#hero-content p {
+  color: white;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+#hero-content a {
+  text-decoration: none;
+  background-color: rgba(255, 251, 0, 0.532);
+  padding: 12px 24px;
+  color: black;
+  font-size: 24px;
+  font-weight: 700;
+  border-radius: 8px;
+  box-shadow: 2px 4px 8px rgb(68, 67, 67);
+}
+#hero-content a:hover {
+  background-color: rgb(255, 251, 0);
+}
+#Destination {
+  display: flex;
+  flex-direction: row;
+  width: 75%;
+  box-sizing: content-box;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+#Destination p {
+  text-transform: uppercase;
+  text-align: center;
+}
+#Destination img {
+  width: 300px;
+  height: 200px;
+  border-radius: 8px;
+}
+#highlights {
+  background-color: rgb(190, 237, 236);
+  margin-top: 0;
+  border-top: 0;
+}
+h2 {
+  padding-top: 30px;
+  margin-top: 0;
+  text-align: center;
+}
+#Destination img:hover{
+    box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.559);
     
-}
-#hero-content{
-    width:900px;
-    background-color: rgba(0, 0, 0, 0.559);
-    box-shadow: 2px 4px 8px rgb(68,67,67);
-    border-radius: 8px;
-    text-align: center;
-    padding: 50px 0;
-    margin: 0 auto;
-    position: relative;
-    top:250px;
-}
-#hero-content h1{
-    color:white;
-    text-transform:uppercase ;
-    font-size: 50px;
-    font-family: "Raleway",sans-serif;
-    margin: 0;
-}
-#hero-content p{
-    color: white;
-    text-transform: uppercase;
-    font-size: 25px;
-    font-weight: 300;
-    margin-bottom: 40px;
-}
-#hero-content a{
-    text-decoration: none;
-    background-color:rgba(255, 251, 0, 0.532) ;
-    padding:12px 24px;
-    color: black;
-    font-size: 24px;
-    font-weight: 700;
-    border-radius: 8px;
-    box-shadow: 2px 4px 8px rgb(68,67,67);
-    
-}
-#hero-content a:hover{
-    
-    background-color:rgb(255,251,0) ;
 }
