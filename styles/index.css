@@ -81,7 +81,7 @@
 p strong{
     color: rgb(201,133,88);
 }
-.desti img:hover{
+.Desti img:hover{
     background-image: url("/image/places/s.jpeg");
   background-position: center;
   background-size: cover;
