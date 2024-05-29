@@ -71,6 +71,8 @@
   
 }
 #highlights h2{
+    color: rgb(20,43,24);
+    text-transform: uppercase;
     text-align: center;
     margin-top: 0;
     padding: 10px;
