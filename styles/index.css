@@ -57,7 +57,7 @@
     margin: 0 20px;
 }
 .Desti img {
-  height: 60%;
+  height: 200px;
   width: 100%;
   box-shadow: 2px 4px 8px rgb(68,67,67);
   border-radius: 10px;
@@ -68,12 +68,13 @@
     color: rgb(20,43,24);
     text-transform: uppercase;
     text-align: center;
-    margin-top: 0;
-    padding: 10px;
+    margin: 24px 0;
+    
     font-size: 40px;
 }
 #highlights {
-  background-color: rgb(190, 237, 236);
+  background:linear-gradient(180deg,rgba(84, 230, 208, 0.746),rgb(173, 211, 205));
+  padding:24px;
 }
 p strong{
     color: rgb(201,133,88);
