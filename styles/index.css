@@ -47,6 +47,7 @@
   width: 90%;
   margin: auto;
   margin-bottom: 40px;
+  justify-content: center;
 }
 #Destination p {
   text-transform: uppercase;
