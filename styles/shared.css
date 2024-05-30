@@ -52,7 +52,8 @@ header ul a:hover {
 footer {
   background:linear-gradient(70deg,rgb(24,24,24),rgb(25,25,29));
     margin-bottom: 0;
-    padding:36px;
+    padding:26px;
+    padding-bottom: 5px;
 }
 footer li {
   height: 80px;
