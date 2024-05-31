@@ -1,6 +1,16 @@
+body{
+    background: linear-gradient(30deg,rgb(77,77,77),rgb(58,58,58));
+}
 #logo a{
     color:rgb(170,109,60);
 }
 #logo a:hover{
     color: #abbece;
+}
+header{
+    position:static;
+}
+main li img{
+    height: 280px;
+    width:300px;
 }
