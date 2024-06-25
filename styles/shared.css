@@ -4,7 +4,7 @@ body {
 }
 header {
   background-color: rgba(0, 0, 0, 0.559);
-  width: 100%;
+  width: 80rem;
   box-sizing: border-box;
   position: fixed;
   display: flex;
