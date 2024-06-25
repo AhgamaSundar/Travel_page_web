@@ -15,7 +15,7 @@ header{
 
 main ul{
     
-    width: 1200px;;
+    width: 150rem;
     margin: 0 auto 48px auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
